@@ -1,0 +1,64 @@
+.root SignUpPage,.root LogInPage
+{
+    -fx-background-color: rgb(91,29,209); 
+    -fx-background-insets: 0.0 -10.0 -10.0 0.0;
+    -fx-pref-width:700.0; 
+    -fx-pref-height:600.0; 
+}
+.root  #headerLogin, .root #signHeader{
+
+-fx-text-fill: rgb(255,227,73);
+    -fx-background-radius: 20;
+    -fx-pref-height:80.0;
+    -fx-text-align: center;
+  -fx-font-family:Jokerman;
+    -fx-font-size:60;
+    -fx-font-weight: bolder;
+}
+.root #loginName , .root #loginPassword, .root #signName,.root #signAge ,.root #signPass,.root #signEmail, .root #newPlayer{
+  
+-fx-text-fill: rgb(255,227,73);
+    -fx-font-family: impact;
+    -fx-font-size:22;
+    -fx-font-weight: bold;
+}
+.root #loginBtn ,.root #signConfirm ,.root #signBack,.root #loginBack{
+ -fx-background-color: 
+        linear-gradient(#ffd65b, #e68400),
+        linear-gradient(#ffef84, #f2ba44),
+        linear-gradient(#ffea6a, #efaa22),
+        linear-gradient(#ffe657 0%, #f8c202 50%, #eea10b 100%),
+        linear-gradient(from 0% 0% to 15% 50%, rgba(255,255,255,0.9), rgba(255,255,255,0));
+    -fx-background-insets: 0, 1;
+    -fx-background-insets: 0,1,2,3,0;
+    fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 5, 0.0 , 0 , 1 );
+    -fx-text-fill: rgb(94,30,211);
+    -fx-font-weight: bold;
+    -fx-font-size: 17px;
+    -fx-padding: 10 20 10 20;
+    -fx-font-family: magica;
+-fx-background-radius: 25;
+    -fx-pref-width:130.0;
+    -fx-pref-height:60.0;
+}
+.root #signBtn{
+     -fx-background-color: rgb(130,90,220);
+     -fx-text-fill:#ffe657;
+    -fx-font-weight: bold;
+    -fx-font-size: 24px;
+    -fx-font-family: magica;
+}
+.root #newPlayer{
+    -fx-font-weight: bold;
+    -fx-font-size: 36px;
+}
+.root #loginName ,.root #loginPassword{
+    -fx-font-weight: bold;
+    -fx-font-size: 26px;
+}
+.root #loginImage{
+    -fx-background-image: url("../images/sulogg.png");
+}
+.root #signImage{
+    -fx-background-image: url("../images/log2.jpg");
+}

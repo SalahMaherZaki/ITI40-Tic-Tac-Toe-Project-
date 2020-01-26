@@ -1,0 +1,150 @@
+
+.root FirstPage{
+    -fx-background-image: url("../images/bg1.png");
+    -fx-background-repeat:no-repeat;
+    -fx-background-size: 700.0,600.0;
+    -fx-background-insets: 0.0 -10.0 -10.0 0.0;
+    -fx-pref-width:700.0; 
+    -fx-pref-height:600.0; 
+}
+.root GamePane,.root SingleNamePane , .root BattleHistoryUI,.root MultiNamesPane
+, .root LogInPage , .root SignUpPage , .root HomeUIMulti , .root HomeUISingle ,.root VedioPane
+,.root HomeUIOnline ,.root videoOffline
+{
+    -fx-background-color: rgb(91,29,209);
+    -fx-background-insets: 0.0 -10.0 -10.0 0.0;
+    -fx-pref-width:700.0; 
+    -fx-pref-height:600.0; 
+}
+
+.root #SingleBtn,.root  #twoPlayerBtn,.root  #overNetworkBtn,
+.root #singleGameBtn ,.root #backToFirstPage,.root #HistoryBtn,.root #SearchBtn
+,.root #StartBtn,.root #BackBtn,.root #twoPlayerGameBtn
+,.root #singleOfflineStart{
+    
+ -fx-background-color:
+        linear-gradient(rgb(187,225,116),rgb(141,211,79)),
+        radial-gradient(center 50% -40%, radius 200%, #b8ee36 45%, #80c800 50%);
+    -fx-background-insets: 0, 1;
+    -fx-pref-width:220.0; 
+    -fx-pref-height:50.0; 
+    -fx-background-insets: 0,1,2,3,0;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 5, 0.0 , 0 , 1 );
+    -fx-text-fill: rgb(94,30,211);
+    -fx-font-weight: bold;
+    -fx-font-size: 17px;
+    -fx-padding: 10 20 10 20;
+    -fx-font-family: magica;
+-fx-background-radius: 25;
+}
+.root  #HistoryBtn,.root  #SearchBtn{ 
+    -fx-background-color: 
+        linear-gradient(#ffd65b, #e68400),
+        linear-gradient(#ffef84, #f2ba44),
+        linear-gradient(#ffea6a, #efaa22),
+        linear-gradient(#ffe657 0%, #f8c202 50%, #eea10b 100%),
+        linear-gradient(from 0% 0% to 15% 50%, rgba(255,255,255,0.9), rgba(255,255,255,0));}
+       
+        
+.root  #firstTitle,.root #singleNameHeader ,.root #BattleLabel,.root #multiNameHeader{
+
+-fx-text-fill: rgb(255,227,73);
+    -fx-background-radius: 20;
+    -fx-pref-width:600.0; 
+    -fx-pref-height:80.0;
+    -fx-text-align: center;
+  -fx-font-family:Jokerman;
+    -fx-font-size:60;
+    -fx-font-weight: bolder;
+}
+
+.root #BattleLabel,.root #multiNameHeader{
+   -fx-font-size:40; 
+}
+
+.root #singleGameBtn ,.root #backToFirstPage,.root #StartBtn,.root #BackBtn,
+.root #twoPlayerGameBtn,.root #singleOfflineStart,.root #gamePaneExit{
+     -fx-background-color: 
+        linear-gradient(#ffd65b, #e68400),
+        linear-gradient(#ffef84, #f2ba44),
+        linear-gradient(#ffea6a, #efaa22),
+        linear-gradient(#ffe657 0%, #f8c202 50%, #eea10b 100%),
+        linear-gradient(from 0% 0% to 15% 50%, rgba(255,255,255,0.9), rgba(255,255,255,0));
+    -fx-background-insets: 0, 1;
+    -fx-background-insets: 0,1,2,3,0;
+    fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 5, 0.0 , 0 , 1 );
+    -fx-text-fill: rgb(94,30,211);
+    -fx-font-weight: bold;
+    -fx-font-size: 17px;
+    -fx-padding: 10 20 10 20;
+    -fx-font-family: magica;
+-fx-background-radius: 25;
+    -fx-pref-width:130.0;
+    -fx-pref-height:60.0;
+  
+}
+.root #singleGameBtn,.root #twoPlayerGameBtn,.root #singleOfflineStart,.root #StartBtn{
+    -fx-pref-width:170.0;
+}
+.root #HistoryBtn{
+   -fx-pref-width:350.0; 
+   -fx-background-radius: 25;
+   -fx-pref-height:80.0;
+   -fx-font-size: 30px;
+      -fx-background-color: rgb(130,90,220);
+     -fx-text-fill:#ffe657;
+    -fx-font-weight: bold;
+}
+.root #HistoryBtn:hover{
+    -fx-cursor: hand;
+}
+.root #SingleBtn:hover,.root  #twoPlayerBtn:hover,.root  #overNetworkBtn:hover
+{
+        -fx-background-color: -fx-mark-highlight-color, linear-gradient(#b8ee36, #80c800);
+}
+.root #singleGameBtn:hover,.root #backToFirstPage:hover ,.root #StartBtn:hover,.root #BackBtn:hover,
+.root #twoPlayerGameBtn:hover,.root #singleOfflineStart:hover,.root #gamePaneExit{
+ -fx-background-color: -fx-mark-highlight-color,linear-gradient(#ffea6a, #efaa22) ;  
+}
+
+.root #enterName ,.root #chooseMark,.root #x ,.root #o,.root #singlePlayerName
+,.root #singlePlayerCheckBox,.root #multiNameHeader,.root #multiFirstPlayer,.root #multiSecondPlayer
+,.root #multiFirstMark,.root #multiPlayerCheckBox,.root #multiPlayerCheckBox,.root #playerOneLabel
+,.root #playerTwoLabel,.root #markOnline
+{
+
+-fx-text-fill: rgb(255,227,73);
+    -fx-font-family: impact;
+    -fx-font-size:22;
+    -fx-font-weight: bold;
+}
+.root #singlePlayerName{
+    -fx-font-size:36;
+}
+.root #SearchTextField ,  .root #ListItems{
+    -fx-pref-width:200.0;
+}
+.root #SearchBtn{
+    -fx-pref-width:200.0;
+    -fx-pref-height:60.0;
+    -fx-alignment: center;
+}
+.root #SearchTextField{
+    -fx-pref-height:40.0;
+}
+.root #ListItems{
+    -fx-pref-height:450.0;
+}
+
+.split-pane{
+    -fx-background-color:rgb(46,197,240);   
+}
+.split-pane:horizontal > .split-pane-divider {
+    -fx-background-color: transparent;
+}
+.split-pane:vertical > .split-pane-divider {
+    -fx-background-color: transparent;
+}
+.root #singleImage{
+    -fx-background-image:url("../images/signmike.png");
+}
