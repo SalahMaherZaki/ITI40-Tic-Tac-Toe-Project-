@@ -4,7 +4,7 @@ Tic Tac Toe Project For Java ITI40 Open Source
 
 TIC TAC TOE Game
 This game contains three categories for playing:
-1-	Single mode: Player VS pc.
+1-	Single mode: Player VS pc. 
 2-	Multi-mode: Two players in the same pc.
 3-	Online mode: playing over network.
 
