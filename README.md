@@ -21,7 +21,7 @@ If you want to start the game, please press “Start Game” button.
 
 Third page: Game page use the mouse to draw your mark in one place of the nine places and the game swaps between you and the pc.
 After finishing the game if you win, the game is celebrating with you by simple video and starts to ask you if you want to play again or not if you accept, the game scenario will be replied, else you will return to your home page.
-              ----------------------------------------------------\n
+              ----------------------------------------------------
 PRESS multi-mode:
  First page: enter your name and your friend name, and then choose the mark (x or o).
 Second page: your home page where you can check the record box to record your game and see it later. In addition, you can return your battle history through “Battle History” button.
