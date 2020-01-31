@@ -1,20 +1,35 @@
-<pre>
+
 # ITI40-Tic-Tac-Toe-Project-
 Tic Tac Toe Project For Java ITI40 Open Source
 
-
+<pre>
 TIC TAC TOE Game
 This game contains three categories for playing:
 1-	Single mode: Player VS pc. 
 2-	Multi-mode: Two players in the same pc.
 3-	Online mode: playing over network.
-
 First page of game: 
 Three buttons to choose the mode as you want.
 First button: single mode.
 Second button: multi-mode.
 Third button: online mode.
+-Then You Can easily Record You Can Throw your Computer to Repeat it later
+-At Online Mode there is an Video for Loser and Winner too
+</pre>
+Single Mode
+![](images/1.png)
+![](images/2.png)
 
+--Multi Modes
+![](images/4.png)
+<pre>
+Online Mode Time !!
+</pre>
+![](images/online.png)
+![](images/5.png)
+![](images/6.png)
+
+<pre>
 PRESS Single mode:
  First page: enter your name and choose the mark (x or o).
 Second page: your home page where you can check the record box to record your game and see it later. In addition, you can return your battle history through “Battle History” button.
@@ -48,4 +63,6 @@ Our TODO list :
 1-	The record will be dynamic , you can reply it without closing the game window.
 2-	The single mode will have  more than one level.
 3-	Players list will have search button to get your partner easily .
+
 </pre>
+
