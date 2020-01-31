@@ -1,3 +1,4 @@
+<pre>
 # ITI40-Tic-Tac-Toe-Project-
 Tic Tac Toe Project For Java ITI40 Open Source
 
@@ -43,14 +44,8 @@ After finishing the game if one of the players wins, the game is celebrating wit
 If there is no winner, we will deal with it by our way.
 
 	        ----------------------------------------------------
-
-
-
 Our TODO list :
 1-	The record will be dynamic , you can reply it without closing the game window.
 2-	The single mode will have  more than one level.
 3-	Players list will have search button to get your partner easily .
-
-
-
-
+</pre>
