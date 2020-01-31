@@ -16,11 +16,14 @@ Third button: online mode.
 -Then You Can easily Record You Can Throw your Computer to Repeat it later
 -At Online Mode there is an Video for Loser and Winner too
 </pre>
+<pre>
 Single Mode
+</pre>
 ![](images/1.png)
 ![](images/2.png)
-
+<pre>
 --Multi Modes
+</pre>
 ![](images/4.png)
 <pre>
 Online Mode Time !!
